@@ -1,0 +1,14 @@
+print ("İki sayı ile işlem yapma programına hoş geldiniz, lütfen istenilen değerleri giriniz")
+a=int(input("Birinci sayı:"))
+b=int(input("İkinci sayı:"))
+c=input("toplama için tt, çıkarma için cc, bölme için bb, çarpma için cr, mod için mod yazınız :")
+if c == ("tt"):
+    print("Sonuç:",a+b)
+elif c == ("cc"):
+    print("Sonuç:",a-b)
+elif c == ("bb"):
+    print ("Sonuç:",int(a/b))
+elif c == ("cr"):
+    print ("Sonuç:",a*b)
+elif c == ("mod"):
+    print("Sonuç:",a%b)
